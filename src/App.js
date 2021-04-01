@@ -1,23 +1,29 @@
-import logo from './logo.svg';
 import './App.css';
+import React, {useState} from "react";
 
 function App() {
+  const [colors, setColors] = useState([])
+
+  const colorPicker= () =>{
+    const elements = "0123456789abcdef";
+    let colorelement = "";
+    for (let i = 0; i < 6; i++) {
+      let index = Math.floor(Math.random()*elements.length)
+      colorelement +=elements[index]
+    }
+    setColors([`#${colorelement}`, ...colors])
+  };
+  
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <ul className="color-main">
+        {
+          colors.map(element => 
+            <li className="color" style={{backgroundColor: element}} key={element}>{element}</li>
+          )
+        }
+      </ul>
+      <button className="button" onClick={colorPicker}>click me</button>
     </div>
   );
 }
