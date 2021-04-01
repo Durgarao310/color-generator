@@ -2,6 +2,13 @@
 # link
 https://randomcolorgeneratorusingreact.netlify.app
 
+# git clone https://github.com/Durgarao310/color-generator
+
+### npm install package.json
+
+### npm start
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
