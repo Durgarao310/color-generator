@@ -1,3 +1,4 @@
+![Screenshot (1)](https://user-images.githubusercontent.com/52436723/113299377-723d8800-931a-11eb-9a5b-042eb663b916.png)
 # link
 https://randomcolorgeneratorusingreact.netlify.app
 
