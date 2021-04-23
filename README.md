@@ -2,6 +2,13 @@
 # link
 https://randomcolorgeneratorusingreact.netlify.app
 
+
+
+### youtube link 
+
+https://youtu.be/mDe-dzkIs2c
+
+
 ### `git clone https://github.com/Durgarao310/color-generator`
 
 ### `npm install package.json`
